@@ -6,8 +6,8 @@ import styles from './Section.module.scss'
 const cx = classNames.bind(styles)
 
 function Section({
-  children,
   className,
+  children,
   title,
 }: {
   children: React.ReactNode

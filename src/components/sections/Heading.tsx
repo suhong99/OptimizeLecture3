@@ -18,7 +18,7 @@ const days = [
 
 function Heading({ date }: { date: string }) {
   const weddingDate = parseISO(date)
-  console.log(weddingDate, 'wedding parseISO')
+
   const title = format(weddingDate, 'yy.MM.dd')
   const subTitle = days[getDay(weddingDate)]
 
